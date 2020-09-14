@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00b8d4"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="90dp"
+        android:hint=" Enter Your Name "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+
+        android:hint=" Email Address "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:hint=" Mobile Number"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:hint=" Delivery Address "
+
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:hint=" Password "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:hint=" Confirm Password "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginTop="25dp"
+       android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:background="#000000"
+         android:text="Register"
+         android:textColor="#ffffff"
+         android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>
